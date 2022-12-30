@@ -1,2 +1,237 @@
+.container{
+    display: inline-block;
+    background-color: rgb(14, 31, 74);
+    width: 100%;
+    position: relative;
+    height: 110px;
+  }
+.container .headr{
+    position: relative;
+    left: 540px;
+    color: #ead2d2;
+  }
+.container .info{
+    display: inline-block;
+    margin-left: 1100px;
+}
+.container .info a{
+    margin: 7px;
+    padding: 5px;
+    border: 1px solid #3352ff;
+    padding: 10px;
+    border-radius: 10px;
+    color: #b2aec1;
+    background-color: rgb(0, 0, 0);
+    list-style-type: none;
+    text-decoration: none;
+}
+a[href="#Actors"],a[href="#Quotes"]{
+    color: rgb(161, 154, 32);
+    
+}
+.summary{
+    position: relative;
+    padding: 10px;
+    background-color: #5c576c;
+}
+.summary .header-1{
+        display: flex;
+        position: relative;
+        color: #a61560;
+        background-color: rgb(0, 0, 0);
+        border: 0.5px solid rgb(199, 198, 197);
+        width: 160px;
+        border-radius: 10px;
+        justify-content: center;
+        left: 560px;
+        padding: 1px;
+      }
+.summary p{
+    display:flex;
+    text-align: center;
+    color: #83cccc;
+    height: 20px;
+}
+.mainactors{
+    position: relative;
+}
+.mainactors .actors-2{
+    display: flex;
+    position:inline-block;
+    flex-wrap: wrap;
+}      
+.actor-1{
+    height: 50px;
 
-/* Your CSS Code here. */
+}
+.actor-4 img{
+    height: 200px;
+    width:150px;
+    margin: 7.2px;
+    border-radius: 10px;
+    border: 1px solid rgb(229, 170, 170);
+    margin-top: 0;
+}
+.actor-5 h2{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    color: #0a0f0a;
+    border: 0.5px solid #ae7eae;
+    width: 200px;
+    padding: 2px;
+    background-color: #068e8e;
+    left: 555px;
+    top:25px;
+  }
+  /* .actor-3{
+    background-color: #ead2d2;
+    height: 270px;
+    bottom: 10px;
+  } */
+  .actor-3 h6{
+    position: relative;
+    display: flex;
+    width:150px;
+    justify-content: center;
+    height: 15px;
+    top: 250px;
+    left:2px;
+    color: rgb(106, 102, 130);
+  }
+  img:hover::after{
+    position:absolute;
+    cursor: pointer;
+    zoom:10%;
+    
+  }
+  .actors-2{
+    border: 1px solid;
+    width:100vw;
+    height: 600px;
+    background-color: #040404;
+    border-radius: 30px;
+  }
+  .quote-1{
+    position:relative;
+    top: -30px;
+    border-radius: 50px;
+    border:1px solid white;
+  }
+  .quote-2 h2{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    color: #0a0f0a;
+    border: 0.5px solid #ae7eae;
+    width: 200px;
+    padding: 2px;
+    background-color: #068e8e;
+    left: 380px;
+    top:15px;
+    z-index: 1;
+  }
+  .quote{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    border: 2px;
+    width: 1000px;
+    background-color: #b2aec1;
+    top: -25px;
+    height: 910px;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 50px;
+  }
+  .quote-3 img{
+    height:300px;
+    width:400px;
+    margin:20px;
+    border: 4px solid#040404;
+    border-radius: 20px;
+
+  }
+  .quote-3 h4{
+    position: relative;
+    border: 1px solid white;
+    padding: 5px;
+    width:400px;
+    left: 25px;
+    bottom: 30px;
+    background-color: #074040;
+    border-radius: 10px;
+    color: aliceblue;
+  }
+  
+  .quote-3 h3{
+    display: flex;
+    position: relative;
+    top:31px;
+    left:20px;
+  }
+  .exc{
+    display: flex;
+    position: relative;
+    bottom:100px;
+  }
+  .imbd{
+    position: relative;
+    border: 2px solid black;
+    background-color: #2b8c91;
+    width: 320px;
+    left: 1005px;
+    bottom: 580px;
+    padding: 5px;
+    border-radius: 15px;
+    height: 300px;
+}
+.imbd h3{
+  font-size: 20px;
+border-bottom: 1px silver solid;
+color: #a6d7ff;
+display: flex;
+justify-content: center;
+font-style: italic;
+font-weight: bold;
+}
+.imbd p{
+    font-size: 20px;
+    font-style: italic;
+    color: #e2dfe6;
+}
+.imbd span{
+  font-size: 20px;
+  position: relative;
+  display: flex;
+  top: -10px;
+  color: #86dd74;
+  font-style: italic;
+}
+.imbd h6 {
+  font-size: 20px;
+  background: aqua;
+  width: 50px;
+  padding: 2px;
+  border-radius: 5px;
+  position: relative;
+  top: -100px;
+  left: 70px;
+}
+.footer {
+  display: flex;
+  position: relative;
+  top: -360px;
+  justify-content: center;
+  font-size: 50px;
+  height: 100px;
+  background: #757568;
+}
+
+.footer h5 {
+  font-size: 15px;
+  color: #cdd0b3;
+}
+.main{
+  background-color: #5c576c;
+}
