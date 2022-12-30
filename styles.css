@@ -62,7 +62,6 @@ a[href="#Actors"],a[href="#Quotes"]{
 }      
 .actor-1{
     height: 50px;
-
 }
 .actor-4 img{
     height: 200px;
@@ -103,8 +102,7 @@ a[href="#Actors"],a[href="#Quotes"]{
     position:absolute;
     cursor: pointer;
     zoom:10%;
-    
-  }
+    }
   .actors-2{
     border: 1px solid;
     width:100vw;
